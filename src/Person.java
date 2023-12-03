@@ -18,4 +18,8 @@ public class Person {
     public void addshow(Show Showname){
         Shows.add(Showname);
     }
+
+    public ArrayList<Show> getShows() {
+        return this.Shows;
+    }
 }
